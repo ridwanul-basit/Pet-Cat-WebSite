@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.2/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                "nav_bg": "rgb(255, 249, 244)",
+                "bt_clr": "rgb(255, 220, 38)"
+              }
+            }
+          }
+        }
+      </script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="flex place-content-between px-8 md:sm:place-content-around h-18 bg-nav_bg">
+        <div class="flex md:space-x-4 place-items-center ">
+            <img class="h-10  " src="./c1-assets/logo-header.png" alt="">
+            <h1 class="text-2xl font-bold hidden sm:block">Browse<span class="text-bt_clr">4</span>Pets</h1>
+        </div>
+        <div class="flex">
+            <ul class="md:flex md:space-x-8 place-items-center font-semibold hidden sm:block ">
+                <li ><a href="#">Find a pet</a></li>
+                <li><a href="#">Breeds</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="flex md:space-x-4 place-items-center font-semibold ">
+            <i class="fa fa-bell hidden sm:block" aria-hidden="true"></i>
+            <i class="fa fa-search hidden sm:block" aria-hidden="true"></i>   
+            <button class="hidden sm:block">Log In</button>
+            <button class="hidden sm:block">Register</button>
+            <i class="fa fa-bars block sm:hidden" aria-hidden="true"></i>
+        </div>
+    </nav>
+</body>
+</html>
