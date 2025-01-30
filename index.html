@@ -15,7 +15,8 @@
               colors: {
                 clifford: '#da373d',
                 "nav_bg": "rgb(255, 249, 244)",
-                "bt_clr": "rgb(255, 220, 38)"
+                "bt_clr": "rgb(255, 220, 38)",
+                "card_bg": "rgb(249, 223, 138)"
               }
             }
           }
@@ -39,12 +40,12 @@
         <div class="flex md:space-x-4 place-items-center font-semibold ">
             <i class="fa fa-bell hidden sm:block" aria-hidden="true"></i>
             <i class="fa fa-search hidden sm:block" aria-hidden="true"></i>   
-            <button class="btn hidden sm:block px-6 bg-white border border-bt_clr rounded-lg">Log In</button>
+            <button class="btn hidden sm:block px-6 bg-white border border-bt_clr roun">Log In</button>
             <button class="btn hidden sm:block bg-bt_clr px-8 rounded-lg">Register</button>
             <i class="fa fa-bars block sm:hidden" aria-hidden="true"></i>
         </div>
     </nav>
-    <main class="md:container md:mx-auto md:p-20 p-5">
+    <main class="md:container md:mx-auto md:p-20  p-5 md:h-[700px] h-[500px]">
         <div class="relative z-10">
             <h1 class="pb-2 text-3xl font-bold">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
             <p class="pb-7 md:w-3/6 w-4/6">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
@@ -54,5 +55,91 @@
             <img src="./c1-assets/cat-big.png" class="" alt="">
         </div>
     </main>
+    <section class="md:container md:mx-auto md:px-20  px-5">
+        <div>
+    <section class="md:container md:mx-auto ">
+            <h2 class="text-2xl font-bold">Browse By Categories</h2>
+        </div>
+        <div class=" grid grid-cols-2 md:grid-cols-6 lG:grid-cols-3 gap-7 py-10">
+            <div class="card bg-card_bg w-45 shadow border border-[rgb(222,222,222)]">
+                <figure class="px-10 pt-10">
+                  <img class="rounded-full  bg-white p-5"
+                    src="./c1-assets/dog-cartoon.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title font-bold">Dog</h2>
+                  <P class="">3 items</P>
+                  
+                </div>
+              </div>
+              <div class="card bg-card_bg w-45 shadow border border-[rgb(222,222,222)]">
+                <figure class="px-10 pt-10">
+                  <img class="rounded-full  bg-white p-5"
+                    src="./c1-assets/fish-cartoon.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title font-bold">Fish</h2>
+                  <P>3 items</P>
+                  
+                </div>
+              </div>
+              <div class="card bg-card_bg w-45 shadow border border-[rgb(222,222,222)]">
+                <figure class="px-10 pt-10">
+                  <img class="rounded-full  bg-white p-5"
+                    src="./c1-assets/cat-cartoon.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title font-bold">Cat</h2>
+                  <P>3 items</P>
+                  
+                </div>
+              </div>
+              <div class="card bg-card_bg w-45 shadow border border-[rgb(222,222,222)]">
+                <figure class="px-10 pt-10">
+                  <img class="rounded-full  bg-white p-5"
+                    src="./c1-assets/bird-cartoon.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title font-bold">Birds</h2>
+                  <P>3 items</P>
+                  
+                </div>
+              </div>
+              <div class="card bg-card_bg w-45 shadow border border-[rgb(222,222,222)]">
+                <figure class="px-10 pt-10">
+                  <img class="rounded-full  bg-white p-5"
+                    src="./c1-assets/mouse-cartoon.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title font-bold">Small Pet</h2>
+                  <P>3 items</P>
+                </div>
+              </div>
+              <div class="card bg-card_bg w-45 shadow border border-[rgb(222,222,222)]">
+                <figure class="px-10 pt-10">
+                  <img class="rounded-full bg-white p-5"
+                    src="./c1-assets/rabbit-cartoon.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title font-bold">Rabbit</h2>
+                  <P>2 items</P>
+                </div>
+              </div>
+
+
+        </div>
+    </section>
 </body>
 </html>
